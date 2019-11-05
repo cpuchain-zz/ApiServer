@@ -20,14 +20,13 @@ class General():
 	@classmethod
 	def supply(cls):
 		supply = 0
-		snapshot = 443863973624633
 		data = utils.make_request('getblockchaininfo')
 		height = data['result']['blocks']
 		for height in range(0, height + 1):
 			supply += utils.reward(height)
 
 		return {
-			'supply': snapshot + supply,
+			'supply': supply,
 			'mining': supply,
 			'height': height
 		}
