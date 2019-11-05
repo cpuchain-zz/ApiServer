@@ -734,9 +734,9 @@ Responce:
    "error":null,
    "id":"api-server",
    "result":{
-      "supply":453124574750370,
-      "mining":9260601125737,
-      "height":173371
+      "supply":870085000000000,
+      "mining":870085000000000,
+      "height":174016
    }
 }
 ```
