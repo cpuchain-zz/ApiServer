@@ -11,7 +11,7 @@ Flask-RESTful==0.3.7
 Flask-SocketIO==4.2.1
 idna==2.8
 itsdangerous==1.1.0
-Jinja2==2.10.3
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 pathtools==0.1.2
 portalocker==1.5.1
